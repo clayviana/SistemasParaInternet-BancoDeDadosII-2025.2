@@ -1,0 +1,6 @@
+create database sistema_escolar;
+USE sistema_escolar;
+create table alunos (
+Matricula Varchar(100) primary key,
+Nome Varchar(100) not null,
+data_Nascimento date);
